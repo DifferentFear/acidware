@@ -5,12 +5,12 @@ local ThemeManager = {} do
 
 	ThemeManager.Library = nil
 	ThemeManager.BuiltInThemes = {
-    ['Acidware']    = { 1, httpService:JSONDecode( "MainColor":"1e0610","AccentColor":"ae3264","OutlineColor":"240915","BackgroundColor":"17040c","FontColor":"ffffff") },
-		['Linoria'] 		= { 2, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1c1c1c","AccentColor":"0055ff","BackgroundColor":"141414","OutlineColor":"323232"}') },
-		['BBot'] 			= { 3, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1e1e1e","AccentColor":"7e48a3","BackgroundColor":"232323","OutlineColor":"141414"}') },
-		['Fatality']		= { 4, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1e1842","AccentColor":"c50754","BackgroundColor":"191335","OutlineColor":"3c355d"}') },
-    ['Neverlose']		= { 5, httpService:JSONDecode('{"MainColor":"13181e","AccentColor":"08a6ef","OutlineColor":"1c1c1c","BackgroundColor":"0f1012","FontColor":"ffffff"}') },
-    ['Gamesense']		= { 6, httpService:JSONDecode('{"MainColor":"151515","AccentColor":"7d9d1e","OutlineColor":"292927","BackgroundColor":"0c0c0b","FontColor":"ffffff"}') },
+    		['Acidware']    = { 1, httpService:JSONDecode( "MainColor":"1e0610","AccentColor":"ae3264","OutlineColor":"240915","BackgroundColor":"17040c","FontColor":"ffffff") },
+		['Linoria'] 	= { 2, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1c1c1c","AccentColor":"0055ff","BackgroundColor":"141414","OutlineColor":"323232"}') },
+		['BBot'] 	= { 3, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1e1e1e","AccentColor":"7e48a3","BackgroundColor":"232323","OutlineColor":"141414"}') },
+		['Fatality']	= { 4, httpService:JSONDecode('{"FontColor":"ffffff","MainColor":"1e1842","AccentColor":"c50754","BackgroundColor":"191335","OutlineColor":"3c355d"}') },
+    		['Neverlose']	= { 5, httpService:JSONDecode('{"MainColor":"13181e","AccentColor":"08a6ef","OutlineColor":"1c1c1c","BackgroundColor":"0f1012","FontColor":"ffffff"}') },
+    		['Gamesense']	= { 6, httpService:JSONDecode('{"MainColor":"151515","AccentColor":"7d9d1e","OutlineColor":"292927","BackgroundColor":"0c0c0b","FontColor":"ffffff"}') },
 	}
 
 	function ThemeManager:ApplyTheme(theme)
